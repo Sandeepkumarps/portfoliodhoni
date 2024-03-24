@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+   
+   
+}
+body{
+    background-image:url(assests/Std.jpg);;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    height:100%;
+}
+.header
+{
+   
+   padding: 20px;
+    height:60px;
+    border:1px solid #000;
+    background-color: #b7be90;
+    
+}
+.row
+{
+    display:flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.col
+{
+    font-size:30px;
+    color: #f8f9f9;
+}
+.Heading
+{
+    font-size: 35px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #080e10;
+}
+.content
+{ 
+
+    border:1px solid black;
+    font-size:25px;
+    margin:30px;
+    padding:70px;
+    font-weight: 400;
+   
+}
+li{
+    display: inline-block;
+    padding-left: 40px;
+  
+}
+li a{
+    text-decoration: none;
+    color:white ;
+    font-weight:400;
+    transform: scale(0);
+    font-size:20px;
+
+}
+li a:hover{
+    transform: scale(1);
+    color: #0d0202;
+}
+.img
+{
+    
+    float:left;
+    padding: 20px;
+    width:50%;
+   
+}
+.button1 {
+
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    padding: 50px;
+ }
+button{
+    padding:10px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #000;
+    color: aliceblue;
+    border:none;
+}
